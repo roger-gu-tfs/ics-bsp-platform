@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="pyro"/>
+  <default sync-j="4" revision="sumo"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded"  name="oe"/>
@@ -10,16 +10,23 @@
   <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
+  <remote fetch="https://github.com/joaohf"        name="erlang"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="rabbitmq"/>
+  <remote fetch="git@github.com:roger-gu-tfs/"     name="ics"/>
 
-  <project remote="yocto"     revision="6bd890d9e011014cf323e61267f8b256949d44aa" upstream="pyro" name="poky" path="sources/poky"/>
-  <project remote="yocto"     revision="83b779a7ef69006564fb8d27e65c31917bc3b6f0" upstream="pyro" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe"        revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="a73a14247afbbcf840bab7b76f953004fe109253" upstream="pyro" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="pyro" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="QT5"       revision="31761f625d2151e9d94d0d83067f90a5da6508e1" upstream="pyro" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="OSSystems" revision="1569eeb9cc1b87632abbf35fbb05f4ac4eeb3987" upstream="morty" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="sbabic"    revision="ae362d0b0fb9c1b9051f7ec8a1c0ba62e33bf4e2" upstream="pyro" name="meta-swupdate" path="sources/meta-swupdate"/>
-  <project remote="variscite" revision="ab822996e8af1b93e6b3906ba69a7bc5ff880962" upstream="pyro" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
+  <project remote="yocto"     revision="623b77885051174d0e05198843e739110977bd18" upstream="sumo"  name="poky" path="sources/poky"/>
+  <project remote="yocto"     revision="407c6cf408969445031a492e2d25e0e2749582ea" upstream="sumo"  name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe"        revision="8760facba1bceb299b3613b8955621ddaa3d4c3f" upstream="sumo"  name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" revision="88a29631809d1af0df618245430db29f2a7012b5" upstream="sumo"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="f7e2216e93aff14ac32728a13637a48df436b7f4" upstream="sumo"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="QT5"       revision="d4e7f73d04e8448d326b6f89908701e304e37d65" upstream="sumo"  name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="sbabic"    revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo"  name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="variscite" revision="61cd8e06734e64bbf61888d2693b86e06dcae676" upstream="sumo"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
+  <project remote="erlang"    revision="64b935caf95bbfccf2136af8ad98ee5ed383d89f" upstream="sumo"  name="meta-erlang" path="sources/meta-erlang"/>
+  <project remote="rabbitmq"  revision="9aa6b5dcbacf734a93602515f0b1857b91c1d408" upstream="sumo"  name="meta-cloud-services" path="sources/meta-cloud-services"/>
+  <project remote="ics"       revision="ecf46e82d5acbb72e2328d9f48c4c1ec81c695aa" upstream="sumo"  name="meta-ics" path="sources/meta-ics"/>
+  <!-- <project remote="vertumnus"  revision="5ba75aa5c5aa15d09f209341af293262d5454fc3" upstream="sumo"  name="meta-vertumnus" path="sources/meta-vertumnus"/> -->
 
   <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
