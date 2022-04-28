@@ -1,4 +1,4 @@
-= Variscite Release Notes
+Release Notes
 
 This branch is based on 
 
@@ -23,7 +23,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir ~/var-fslc-yocto
 $ cd ~/var-fslc-yocto
-$ repo init -u https://github.com/varigit/variscite-bsp-platform.git -b pyro
+$ repo init -u git@github.com:roger-gu-tfs/ics-bsp-platform.git -b vertumnus_0.9.0
 $ repo sync -j4
 
 At the end of the commands you have every metadata you need to start work with.
@@ -32,8 +32,7 @@ To start a simple image build:
 
 [source,console]
 $: MACHINE=<machine> DISTRO=<distro> source ./setup-environment <build directory>
-$: bitbake core-image-base
+$: bitbake vertumnus-fsl-image
+$: bitbake vertumnus-fsl-image-swupdate
+$: bitbake vertumnus-fsl-image-swu
 
-You can use any directory to host your build.
-
-The source code is checked out at `var-fslc-yocto/sources`.
