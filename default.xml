@@ -26,7 +26,7 @@
   <project remote="variscite" revision="61cd8e06734e64bbf61888d2693b86e06dcae676" upstream="sumo"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
   <project remote="erlang"    revision="64b935caf95bbfccf2136af8ad98ee5ed383d89f"   name="meta-erlang" path="sources/meta-erlang"/>
   <project remote="rabbitmq"  revision="9aa6b5dcbacf734a93602515f0b1857b91c1d408"   name="meta-cloud-services" path="sources/meta-cloud-services"/>
-  <project remote="ics"       revision="master"   name="meta-ics" path="sources/meta-ics"/>
+  <project remote="ics"       revision="main"   name="meta-ics" path="sources/meta-ics"/>
   <project remote="vertumnus"  revision="release/VER_0.9.0"  name="meta-vertumnus" path="sources/meta-vertumnus"/>
 
   <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
