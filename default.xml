@@ -24,10 +24,10 @@
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser" path="sources/meta-browser"/>
   <project remote="sbabic"    revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo"  name="meta-swupdate" path="sources/meta-swupdate"/>
   <project remote="variscite" revision="61cd8e06734e64bbf61888d2693b86e06dcae676" upstream="sumo"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
-  <project remote="erlang"    revision="64b935caf95bbfccf2136af8ad98ee5ed383d89f" upstream="sumo"  name="meta-erlang" path="sources/meta-erlang"/>
-  <project remote="rabbitmq"  revision="9aa6b5dcbacf734a93602515f0b1857b91c1d408" upstream="sumo"  name="meta-cloud-services" path="sources/meta-cloud-services"/>
-  <project remote="ics"       revision="master" upstream="sumo"  name="meta-ics" path="sources/meta-ics"/>
-  <project remote="vertumnus"  revision="release/VER_0.9.0" upstream="sumo"  name="meta-vertumnus" path="sources/meta-vertumnus"/>
+  <project remote="erlang"    revision="64b935caf95bbfccf2136af8ad98ee5ed383d89f"   name="meta-erlang" path="sources/meta-erlang"/>
+  <project remote="rabbitmq"  revision="9aa6b5dcbacf734a93602515f0b1857b91c1d408"   name="meta-cloud-services" path="sources/meta-cloud-services"/>
+  <project remote="ics"       revision="master"   name="meta-ics" path="sources/meta-ics"/>
+  <project remote="vertumnus"  revision="release/VER_0.9.0" u  name="meta-vertumnus" path="sources/meta-vertumnus"/>
 
   <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
